@@ -1,0 +1,25 @@
+<!--pages/office2/onDuty2/onDuty2.wxml-->
+
+<view class="list">
+    <view class="item" wx:for="{{information}}" wx:key="index">
+        <view class="item-text"  data-item="{{item}}">
+            <text>{{'姓名：'+item.uName}}</text>
+            <text>{{'学号：'+item.id}}</text>
+        </view>
+        <view class="item-info">
+            <view class="item-info-time">{{item.date}}</view>
+        </view>
+    </view>
+</view>
+<view class="btn" >
+    <button bindtap="modalinput">签到</button>
+</view>
+<modal hidden="{{hiddenmodalput}}" title="输入信息" confirm-text="确认" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+    <text class="info_text">姓名</text>
+    <input type='text'  class="info_input" bindinput="input_uName"  auto-focus/>
+    <text class="info_text">学号：</text>
+    <input type='number' class="info_input" bindinput="input_id" auto-focus/>
+</modal>
+
+
+

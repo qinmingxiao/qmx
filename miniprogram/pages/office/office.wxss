@@ -1,0 +1,44 @@
+/* pages/office/office.wxss */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.office1-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;/*间距*/
+  height: 80rpx;
+  width: 60%;
+  color: white;
+  background-color: #6b2d93;
+  border-radius: 98rpx;
+  
+}
+
+.office2-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;/*间距*/
+  height: 80rpx;
+  width: 60%;
+  color: white;
+  background-color: #6b2d93;
+  border-radius: 98rpx;
+}
+
+.office3-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rpx;/*间距*/
+  height: 80rpx;
+  width: 60%;
+  color: white;
+  background-color: #6b2d93;
+  border-radius: 98rpx;
+}

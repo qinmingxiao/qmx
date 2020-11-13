@@ -1,0 +1,48 @@
+<view class="form">
+  <view class="info_line">
+    <text class="info_text">申请人</text>
+    <input class="info_input" bindinput="input_uName" placeholder-class="info_input_holder" placeholder="请填写申请人姓名" />
+  </view>
+  <text>\n</text>
+  <view class="info_line">
+    <text class="info_text">申请时间</text>
+    <view class="picker_group">  
+      <picker mode="date" value="{{date}}"  end="2030-12-30" bindchange="bindDateChange">  
+        <view class="picker">  
+          {{date}}  
+        </view>  
+      </picker> 
+      <picker mode="time" value="{{time}}"  end="23:59" bindchange="bindtimeChange">  
+        <view class="picker">  
+          {{time}}  
+        </view>  
+      </picker>   
+      至  
+      <picker mode="date" value="{{date2}}" start="{{date}}" end="2050-01-01" bindchange="bindDateChange2">  
+        <view class="picker">  
+          {{date2}}  
+        </view>  
+      </picker> 
+      <picker mode="time" value="{{time2}}"  start="{{time}}" 
+      end="23:59" bindchange="bindtimeChange2">  
+        <view class="picker">  
+          {{time2}}  
+        </view>  
+      </picker>       
+    </view> 
+  </view>
+  <text>\n</text>
+  <view class="info_line">
+    <text class="info_text">手机号</text>
+    <input class="info_input" bindinput="input_phone" placeholder-class="info_input_holder" placeholder="请输入联系电话" />
+  </view>
+  <text>\n</text>
+  <view class="info_line">
+    <text class="info_text">申请理由</text>
+    <input class="info_input" bindinput="input_reason" placeholder-class="info_input_holder" placeholder="请填写申请理由" />
+  </view>
+
+</view>
+<view class="bottom-box">
+  <button type="default" bindtap="addOrder">提交申请</button>
+</view>

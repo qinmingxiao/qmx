@@ -1,0 +1,40 @@
+/* pages/office1/apply1/index/index.wxss */
+page{
+  background-color: #b57ee2c2;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.list{
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow: auto;
+}
+.line {
+  color: #965bce;
+}
+.item{
+  background-color: white;
+  width: calc(96% - 30px);
+  margin:5px auto;
+  padding: 10px 15px;
+  border-radius: 20rpx;
+}
+.item-text{
+  font-size: 13px;
+  color: #503e2c;
+  margin:10px auto;
+  line-height: 30px;
+  display: flex;
+  background-color: rgb(248, 239, 255);
+  flex-direction: column;
+}
+.item-info{
+  display: flex;
+  font-size: 14px;
+  color: #9b8878;
+}
+.item-info-state{
+  margin-right: auto;
+}

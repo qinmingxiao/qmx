@@ -1,0 +1,12 @@
+
+<view class="item">
+  <text>\n</text>
+  <text>{{'申请人：'+item.uName}}</text>
+  <text>{{'申请地点：'+item.place}}</text>
+  <text>{{'申请时间：'}}</text>
+  <text>{{'开始时间：'+item.date+' '+item.time}}</text>
+  <text>{{'结束时间：'+item.date2+' '+item.time2}}</text>
+  <text>{{'申请人联系方式：'+item.phone}}</text>
+  <text>{{'申请理由：'+item.reason}}</text>
+  <text>{{'申请状态：'+item.state}}</text>
+</view>

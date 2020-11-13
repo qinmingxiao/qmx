@@ -1,0 +1,24 @@
+/* pages/teaOffice/detail/detail.wxss */
+page{
+  background-color: #d4a9f7c2;
+}
+.item{
+  width: 100%;
+  font-size: 14px;
+  background-color: white;
+  color: #503e2c;
+  margin:10px auto;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+.btn0{
+  background-color: #d9f0d6;
+}

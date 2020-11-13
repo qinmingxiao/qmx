@@ -1,0 +1,16 @@
+
+page{
+  background-color: #b57ee2c2;
+}
+.item{
+  background-color: white;
+  width: 90%;
+  top: 30rpx;
+  font-size: 13px;
+  color: #503e2c;
+  margin:10px auto;
+  line-height: 30px;
+  display: flex;
+  border-radius: 20rpx;
+  flex-direction: column;
+}

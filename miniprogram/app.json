@@ -1,0 +1,32 @@
+{
+  "pages": [
+   "pages/login/login",
+   "pages/teaOffice/teaOffice",
+   "pages/teaOffice/detail/detail",
+   "pages/office/office",
+   "pages/office1/office1",
+   "pages/office2/office2",
+   "pages/office3/office3",
+   "pages/office1/apply1/apply1",
+   "pages/office1/index/index",
+   "pages/office1/detail/detail",
+   "pages/office2/apply2/apply2",
+   "pages/office2/index/index",
+   "pages/office2/detail/detail",
+   "pages/office3/apply3/apply3",
+   "pages/office3/index/index",
+   "pages/office3/detail/detail",
+   "pages/office1/onDuty1/onDuty1",
+   "pages/office2/onDuty2/onDuty2",
+   "pages/office3/repair/repair"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#ffffff",
+    "navigationBarTitleText": "微办公小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

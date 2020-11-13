@@ -1,0 +1,15 @@
+<!--pages/office1/apply1/index/index.wxml-->
+
+<view class="list">
+    <view class="item" wx:for="{{information}}" wx:key="index">
+        <view class="item-text" bindtap="todetail" data-item="{{item}}">
+            <text>{{'申请人：'+item.uName}}</text>
+            <text>{{'申请地点：'+item.place}}</text>
+        </view>
+        <text class="line">—————————</text>
+        <view class="item-info">
+            <view class="item-info-state">{{item.state}}</view>
+        </view>
+    </view>
+</view>
+<button class="apply-btn" bindtap="toApply">我要申请</button>

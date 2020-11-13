@@ -1,0 +1,28 @@
+<view class="weui-cells">
+	<radio-group bindchange="radioChange">
+
+		<view class="weui-cell__hd">
+			<image class="icon0"></image>
+			<text>\n</text>
+			<radio color="#6b2d93" value="{{items[0].value}}" />
+			{{items[0].name}}
+		</view>
+		<view class="weui-cell__hd">
+			<image class="icon1"></image>
+			<text>\n</text>
+			<radio value="{{items[1].value}}" bindtap="modalinput" color="#6b2d93"/>
+			{{items[1].name}}
+		</view>
+
+		<modal hidden="{{hiddenmodalput}}" title="登录账号" confirm-text="确认" cancel-text="取消" bindcancel="cancel"
+			bindconfirm="confirm">
+			<text class="info_text">工号：</text>
+			<input type='number' class="info_input" bindinput="input_Id" auto-focus />
+		</modal>
+
+	</radio-group>
+</view>
+
+<view class="weui-form__opr-area begin">
+	<button open-type="getUserInfo" bindgetuserinfo='getUserInfo' class="weui-btn">进入微办公小程序</button>
+</view>

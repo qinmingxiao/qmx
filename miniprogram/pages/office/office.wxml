@@ -1,0 +1,18 @@
+<!--pages/office/office.wxml-->
+<view class="container">
+
+  <image style="width=320rpx,hight=230rpx" src="../icon/student_home.png"></image>
+
+  <view class="office1-link">
+    <navigator url="../office1/office1" class="item-link">学生会办公室</navigator>
+  </view>
+
+  <view class="office2-link">
+    <navigator url="../office2/office2" class="item-link">团委办公室</navigator>
+  </view>
+
+  <view class="office3-link">
+    <navigator url="../office3/office3" class="item-link">报告厅</navigator>
+  </view>
+
+</view>

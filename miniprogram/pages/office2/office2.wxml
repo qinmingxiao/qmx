@@ -1,0 +1,13 @@
+<!--pages/office2/office2.wxml-->
+<view class="container">
+  <view class="icon"></view>
+<view class="apply2">
+<navigator url="./index/index" class="apply-link">申请场地</navigator>
+</view>
+
+<view class="onDuty2">
+<navigator url="./onDuty2/onDuty2" class="onDuty-link">值班</navigator>
+</view>
+
+</view>
+

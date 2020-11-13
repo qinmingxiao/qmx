@@ -1,0 +1,47 @@
+/* pages/teaOffice/teaOffice.wxss */
+page{
+  background-color: #b57ee2c2;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.title{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;/*间距*/
+  margin-bottom: 20rpx;/*间距*/
+}
+.list{
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow: auto;
+}
+.item{
+  background-color: white;
+  width: calc(96% - 30px);
+  margin:5px auto;
+  padding: 10px 15px;
+  border-radius: 20rpx;
+}
+.item-text{
+  font-size: 13px;
+  color: #503e2c;
+  margin:10px auto;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-info-state{
+  margin-right: auto;
+  display: flex;
+  font-size: 14px;
+  color: #9b8878;
+}
+
+.line{
+  color: #fde7d1;
+}
